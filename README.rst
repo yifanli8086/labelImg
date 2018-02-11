@@ -23,7 +23,7 @@ Optimized for labeling pedestrian on continuous video streams (especially for la
   * When you observe a pedestrian cross the road curb and enter the traffic zone
   * tick the "jaywalking" box!
 
----
+========
 
 .. image:: https://img.shields.io/pypi/v/labelimg.svg
         :target: https://pypi.python.org/pypi/labelimg
