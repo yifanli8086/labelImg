@@ -11,7 +11,7 @@ Optimized for labeling pedestrian on continuous video streams (especially for la
 
 * This version will save each file's xml to next frame.
   * Once save xml for 00040.jpg as 00040.xml, it would save another copy as 00041.xml
-    * So that for next frame you only need to shift each bounding box for a little bit, without repeating assigning box and id.
+  * So that for next frame you only need to shift each bounding box for a little bit, without repeating assigning box and id.
   * If 00041.xml exists, modifying 00040.xml won't change 00041.xml.
 * Object id Auto Increment
   * Once a pedestrian is marked with id=i
@@ -21,9 +21,9 @@ Optimized for labeling pedestrian on continuous video streams (especially for la
 
 * Replace PASCAL VOC's "difficult" label as "jaywalking"
   * When you observe a pedestrian cross the road curb and enter the traffic zone
-    * tick the "jaywalking" box!
+  * tick the "jaywalking" box!
 
-===
+---
 
 .. image:: https://img.shields.io/pypi/v/labelimg.svg
         :target: https://pypi.python.org/pypi/labelimg
