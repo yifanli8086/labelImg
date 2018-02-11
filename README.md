@@ -18,7 +18,7 @@ Optimized for labeling pedestrian on continuous video streams (especially for la
 02/10/2018:
 
 -   Replace PASCAL VOC's "difficult" label as "jaywalking" 
-    -   When you observe a pedestrian cross the road curb and enter the traffic zone 
+    -   During green traffic light period, when you observe a pedestrian cross the road curb and enter the traffic zone 
         -   tick the "jaywalking" box!
 
 ---
